@@ -1,0 +1,16 @@
+
+
+body {
+  height: 100vh;
+  display: flex;
+  background:rgba(0, 0, 0, 0.719)#060AB2;
+}
+td  {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid rosybrown;    
+  background-color:blanchedalmond;
+  font-size: 58px;
+}
