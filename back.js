@@ -29,7 +29,7 @@ var games =[
 },
  ];
 
-// foreach pour parcourrir trous les elmts // love= contenair
+// foreach pour parcourrir trous les elmts // love= contenaire
  var love = document.getElementById('love');
  games.forEach(function(produit) {
 
@@ -66,7 +66,7 @@ var games =[
       }
       console.log(produit.like); 
    }
-
+  });
 
 
 
@@ -75,15 +75,15 @@ var games =[
 
 // exemple pour la serie game of trone 
 
- $.get("https://swapi.co/api/people", function (data){    
-          data.results.forEach(function (personnage){   
-          console.log(personnage.name);               
-          const element=document.createElement("div")        
-                        element.innerHTML=personnage.name                     
-                               const ct= document.getElementById("container")                                          
-              ct.appendChild(element); 
-               })
-        })
+//  $.get("https://swapi.co/api/people", function (data){    
+//           data.results.forEach(function (personnage){   
+//           console.log(personnage.name);               
+//           const element=document.createElement("div")        
+//                         element.innerHTML=personnage.name                     
+//                                const ct= document.getElementById("container")                                          
+//               ct.appendChild(element); 
+//                })
+//         })
 
 // titre exemplaire
 
